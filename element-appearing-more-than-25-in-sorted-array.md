@@ -1,10 +1,10 @@
-// 1287. Element Appearing More Than 25% In Sorted Array
+# 1287. Element Appearing More Than 25% In Sorted Array
 
-// ✅ output is 6;
+## Problem: <https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/>
 
-#include <bits/stdc++.h>
-using namespace std;
+## ✅ output is 6
 
+```cpp
 int findSpecialInteger(vector<int> &arr)
 {
     int size = arr.size();
@@ -29,11 +29,15 @@ int findSpecialInteger(vector<int> &arr)
 
     return element;
 }
+```
 
-int main()
-{
-    vector<int> v = {1, 2, 2, 6, 6, 6, 6, 7, 10};
-    int result = findSpecialInteger(v);
-    cout << result;
-    return 0;
-}
+## Input
+
+```cpp
+vector<int> v = {1, 2, 2, 6, 6, 6, 6, 7, 10};
+int result = findSpecialInteger(v);
+cout << result;
+
+// output is 6
+
+```
